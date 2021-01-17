@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-//***create the database and name the db:drink-db***
+//***Connecting to MongoDB with Mongoose and name the db:drink-db***
 mongoose.connect( 'mongodb://localhost/drink-db' , {
     useNewUrlParser: true,
     useUnifiedTopology: true,
