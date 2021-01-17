@@ -30,8 +30,8 @@ const DrinkSchema = new mongoose.Schema(
     { timestamps: true }
 )
 
-//***name the table to 'drink' in the db, and put in the keyword called drink***
-const Drink = mongoose.model("drink", DrinkSchema);
+//***name the table to 'Drink' in the db, and put in the keyword called Drink***
+const Drink = mongoose.model("Drink", DrinkSchema);
 
 
 // The code below is when we want to get data from the FAKER API
